@@ -1,0 +1,275 @@
+a {
+  text-decoration: none;
+  color: #f1f0f0; }
+
+.header__btn {
+  padding: .3rem 3rem;
+  background-color: #df6604;
+  border-radius: 20px;
+  margin-left: 18rem;
+  transition: all .3s;
+  color: white;
+  font-size: 1.1rem;
+  outline: 0; }
+
+.learn_more {
+  padding: .5rem 2rem;
+  border-radius: 20px;
+  background-color: #ffa500; }
+
+.purchase_btn {
+  color: #444;
+  padding: .5rem 2rem;
+  border: 1px solid #ffa500;
+  border-radius: 10px;
+  color: #df6604; }
+
+.gallery__container {
+  height: 30rem;
+  width: 100%; }
+  .gallery__container .row {
+    height: 10rem;
+    width: 100%; }
+    .gallery__container .row .col-1-of-4 {
+      width: 23.72rem;
+      height: 15rem;
+      margin: 0; }
+      .gallery__container .row .col-1-of-4 img {
+        width: 100%;
+        height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+  font-family: 'Helvetica'; }
+
+body {
+  width: 100%; }
+
+.top__wrapper {
+  height: 95vh;
+  background: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; }
+
+.top_container_box {
+  width: 22rem;
+  height: 23rem;
+  margin-left: 12rem;
+  margin-top: 5rem;
+  font-size: 1rem;
+  background: linear-gradient(to right, rgba(187, 179, 179, 0.9), rgba(187, 179, 179, 0.9));
+  margin-bottom: 2rem; }
+  .top_container_box .interim__box {
+    padding-top: 4rem;
+    width: 18rem;
+    margin-left: 4rem;
+    border-right: 5px solid #df6604;
+    color: #f1f0f0;
+    display: block; }
+    .top_container_box .interim__box h2, .top_container_box .interim__box p {
+      margin-bottom: 1.3rem; }
+
+@media (max-width: 900px) {
+  .top_container_box {
+    margin-left: 5rem;
+    margin-top: 5rem; } }
+
+nav {
+  margin: 0;
+  padding: 1rem 0;
+  background: linear-gradient(to right, rgba(68, 68, 68, 0.6), rgba(68, 68, 68, 0.6));
+  border-bottom: 0.6px solid #444; }
+  nav .logo {
+    display: inline-block;
+    margin-left: 10rem; }
+  @media (max-width: 900px) {
+    nav .logo {
+      margin-left: 2rem; } }
+  nav ul {
+    display: inline-block;
+    margin-left: 30rem; }
+  @media (max-width: 900px) {
+    nav ul {
+      margin-left: 11rem;
+      display: inline-block; } }
+  nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 2rem; }
+    nav li a {
+      text-transform: uppercase; }
+    nav li .active {
+      padding-bottom: 1.1rem;
+      border-bottom: 1px solid orange;
+      color: orange; }
+
+@media (max-width: 900px) {
+  nav {
+    padding: .3rem 0;
+    margin: 0; } }
+
+.cards {
+  height: 40rem;
+  padding-top: 10rem;
+  width: 100%; }
+  .cards .about_price {
+    margin: 0 auto;
+    width: 20rem;
+    text-align: center; }
+    .cards .about_price .price_table {
+      padding: 1rem;
+      background: #f1f0f0;
+      border-right: 3px solid #ffa500;
+      color: #ffa500;
+      margin-bottom: 1rem; }
+  .cards .row {
+    margin: 0 auto;
+    width: 70rem;
+    padding: 5rem 0;
+    height: 30rem; }
+    .cards .row .col-1-of-3 {
+      width: 20rem;
+      height: 29rem;
+      float: left;
+      background: #f1f0f0;
+      text-align: center; }
+      .cards .row .col-1-of-3 h3, .cards .row .col-1-of-3 .price__container {
+        padding: 2rem 0;
+        border-bottom: 2px solid #ffa500;
+        width: 80%;
+        margin: 0 auto;
+        text-transform: uppercase;
+        font-weight: 700; }
+        .cards .row .col-1-of-3 h3 p, .cards .row .col-1-of-3 .price__container p {
+          font-weight: 500;
+          padding-top: 1rem; }
+      .cards .row .col-1-of-3 .price__content {
+        padding: 2rem;
+        width: 50%;
+        line-height: 1.6rem;
+        margin: 0 auto; }
+    .cards .row .col-1-of-3:not(:last-child) {
+      margin-right: 3rem; }
+
+.quote_container {
+  height: 28rem;
+  width: 100%;
+  background: #f1f0f0;
+  overflow: visible;
+  position: relative;
+  padding-top: 10rem; }
+  .quote_container .quote__box {
+    margin: 0 auto;
+    height: 15rem;
+    width: 40rem;
+    background: #ffffff;
+    text-align: center;
+    padding-top: 3rem;
+    border-right: 3px solid orange; }
+    .quote_container .quote__box .quote {
+      margin-bottom: 3rem;
+      background: #ffa500;
+      padding: .5rem; }
+    .quote_container .quote__box p {
+      margin-top: 1.5rem;
+      line-height: 2rem; }
+    .quote_container .quote__box .stars {
+      color: #ffa500;
+      font-size: 2rem; }
+  .quote_container .quote__box:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50rem;
+    top: 73.5%;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #ffffff;
+    border-right: 20px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 20px solid transparent; }
+  .quote_container img {
+    position: absolute;
+    width: 45rem;
+    height: 30rem;
+    left: 26%;
+    top: 20rem; }
+
+.second_container {
+  margin: 5rem 8rem;
+  height: 30rem;
+  position: relative; }
+
+.goals_block {
+  width: 25rem;
+  height: 25rem;
+  display: inline-block;
+  margin-right: 10rem;
+  margin-top: 6rem; }
+  .goals_block p {
+    margin-bottom: 1.6rem;
+    line-height: 2rem; }
+
+.h1__block {
+  width: 20rem; }
+  .h1__block h1 {
+    color: orange;
+    margin-bottom: 2rem;
+    padding: .5rem 1rem;
+    background-color: #eee;
+    border-right: 5px solid #ffa500;
+    font-size: 1.4rem; }
+
+.iphone_image {
+  float: right; }
+  .iphone_image:after {
+    content: "";
+    clear: both; }
+  .iphone_image .iphone {
+    width: 100%;
+    height: auto; }
+
+.third_container {
+  width: 94.93rem;
+  height: 50rem;
+  background-color: #eee; }
+  .third_container .row {
+    margin: 4rem 8rem 0 8rem;
+    width: 80.93rem;
+    height: 30rem;
+    padding-top: 10rem; }
+    .third_container .row:after {
+      content: "";
+      clear: both; }
+
+.col-1-of-4 {
+  width: 17.9rem;
+  float: left;
+  color: #858282; }
+  .col-1-of-4 p {
+    line-height: 1.8rem; }
+  .col-1-of-4:not(:last-child) {
+    margin-right: 3rem; }
+  .col-1-of-4 .card {
+    text-align: center;
+    margin-bottom: 2rem; }
+    .col-1-of-4 .card .icon {
+      font-size: 3rem;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-color: orange;
+      padding-bottom: 1.5rem; }
+    .col-1-of-4 .card h3 {
+      color: #2fb12f; }
+
+.store_icons {
+  width: 30rem;
+  height: 5rem;
+  margin: 0 auto; }
+  .store_icons .icon {
+    display: inline-block;
+    width: auto;
+    height: 3rem; }

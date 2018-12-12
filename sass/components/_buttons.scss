@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color:$color-light;
+}
+
+.header__btn{
+    padding:.3rem 3rem;
+    background-color:$color-orange;
+    border-radius:20px;
+    margin-left:18rem;
+    transition:all .3s;
+    color: white;
+    font-size: 1.1rem;
+    outline: 0;
+}
+
+.learn_more{
+    padding:.5rem 2rem;
+    border-radius:20px;
+    background-color: $color-light-orange;
+}
+
+.purchase_btn{
+    color:#444;
+    padding:.5rem 2rem;
+    border:1px solid $color-light-orange;
+    border-radius: 10px;
+    color:$color-orange;
+}

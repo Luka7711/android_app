@@ -1,0 +1,47 @@
+.second_container{
+    margin:5rem 8rem;
+    height:30rem;
+    position:relative;
+}
+
+.goals_block{
+    width:25rem;
+   height:25rem;
+   display:inline-block;
+   margin-right:10rem;
+   margin-top:6rem;
+p{
+    margin-bottom: 1.6rem;
+    line-height:2rem;
+}
+}
+
+.h1__block{
+width:20rem;
+    h1{
+        color:orange;
+        margin-bottom:2rem;
+        padding:.5rem 1rem;
+        background-color:#eee;
+        border-right:5px solid $color-light-orange;
+        font-size:1.4rem;
+       
+    }
+ 
+}
+
+.iphone_image{
+    float:right;
+
+&:after{
+    content:"";
+    clear:both;
+}
+.iphone{
+    width:100%; 
+    height:auto;
+}    
+}
+
+
+
